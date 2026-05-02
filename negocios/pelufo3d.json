@@ -1,0 +1,105 @@
+{
+  "negocio": {
+    "nombre": "Pelufo3D Beauty",
+    "instagram": "@pelufo3d",
+    "tienda_url": "https://pelufo3d.com",
+    "ciudad": "Buenos Aires"
+  },
+
+  "admin": {
+    "numero": "549XXXXXXXXXX"
+  },
+
+  "horario": {
+    "dias": [1, 2, 3, 4, 5, 6],
+    "hora_inicio": 9,
+    "hora_fin": 21,
+    "timezone_offset": -3
+  },
+
+  "delays": {
+    "min_ms": 4000,
+    "max_ms": 9000
+  },
+
+  "templates_fijos": {
+    "bienvenida": "¡Hola! 🎀 Bienvenida a *{negocio.nombre}* — organizadores artesanales hechos a mano en {negocio.ciudad} ✨\n\nYa recibimos tu mensaje, te respondemos enseguida.\n\nMientras tanto podés ver nuestro catálogo en 👉 {negocio.tienda_url}\n\n📦 Envíos a todo el país por Andreani\n⏱ Entrega estimada 3-5 días hábiles\n\n¿En qué te puedo ayudar?",
+    "fuera_horario": "¡Hola! 🎀 Gracias por escribirnos. En este momento no estamos disponibles pero te respondemos a la brevedad ✨\n\nMientras tanto podés ver todos nuestros productos en 👉 {negocio.tienda_url}\n\n💕 {negocio.nombre} — Hecho a mano en {negocio.ciudad}",
+    "no_entendido": "¡Hola! 🎀 Enseguida te paso con alguien del equipo para ayudarte mejor 💕"
+  },
+
+  "intenciones": [
+    {
+      "nombre": "saludo",
+      "palabras": ["hola", "buenas", "buen dia", "buenas tardes", "buenas noches", "hi", "hey", "holi"],
+      "respuesta": "¡Hola! 🎀 ¿En qué te puedo ayudar?\n\n1️⃣ Ver productos y precios\n2️⃣ Consultar envíos y pagos\n3️⃣ Programa Embajadoras\n4️⃣ Estado de mi pedido\n\nEscribime lo que necesitás 💕",
+      "alertar": false
+    },
+    {
+      "nombre": "consulta_precio",
+      "palabras": ["precio", "cuanto sale", "cuanto cuesta", "cuanto es", "vale", "costo", "cuestan", "salen", "ver productos", "1️⃣"],
+      "respuesta": "Estos son nuestros organizadores 🎀✨\n\n💕 Moño Organizador — $14.000\n💎 Organizador Corazón — $18.000\n🌸 Perchero de Aros — $8.000\n✨ Porta Aros — $12.000\n🎁 Kit Mini Beauty (3 piezas) — $38.000\n\nTodos disponibles en 6 colores: Beige, Blanco, Rosa, Violeta, Rosa pastel y Nude 🌈\n\nCon transferencia bancaria tenés 10% OFF en todos 💳\n¿Cuál te interesa? Te cuento más 💕",
+      "alertar": false
+    },
+    {
+      "nombre": "consulta_moño",
+      "palabras": ["moño", "mono", "organizador moño", "porta pinceles"],
+      "respuesta": "🎀 *Organizador Moño* — el más popular de la línea\n\n💕 Precio: $14.000 (o $12.600 con transferencia)\n🌈 Disponible en 6 colores\n📦 Envío gratis si sumás el Kit Mini Beauty (+$35.000)\n⏱ Entrega: 3-5 días hábiles\n\nPerfecto para porta pinceles, cosméticos y detalles del tocador ✨\n\n¿Te interesa? Decime el color y te doy los datos para la compra 💕",
+      "alertar": false
+    },
+    {
+      "nombre": "consulta_corazon",
+      "palabras": ["corazon", "corazón", "organizador corazon", "maquillaje corazon"],
+      "respuesta": "💎 *Organizador Corazón* — funcional y decorativo a la vez\n\n💕 Precio: $18.000 (o $16.200 con transferencia)\n🌈 Disponible en 6 colores\n📦 Incluido en el Kit Mini Beauty\n⏱ Entrega: 3-5 días hábiles\n\nIdeal para labiales, delineadores, sombras — todo ordenado y visible ✨\n\n¿Qué color te gustaría? 💕",
+      "alertar": false
+    },
+    {
+      "nombre": "consulta_kit",
+      "palabras": ["kit", "combo", "las tres", "los tres", "kit mini", "kit beauty", "3 piezas", "tres piezas"],
+      "respuesta": "🎁 *Kit Mini Beauty* — el combo completo 🎀\n\nIncluye:\n✦ Moño Organizador\n✦ Perchero de Aros\n✦ Organizador Corazón\n(todo en el mismo color a tu elección)\n\n💰 $38.000 en vez de $44.000 (14% OFF)\n💳 Con transferencia: $34.200\n🎯 3 cuotas sin interés disponibles\n📦 Envío GRATIS (supera los $35.000)\n\n¿Cuál es tu color favorito? 🌈",
+      "alertar": false
+    },
+    {
+      "nombre": "consulta_envio",
+      "palabras": ["envio", "envío", "mandan", "despacho", "llega", "dias", "andreani", "costo envio", "shipping", "2️⃣"],
+      "respuesta": "📦 Los enviamos a todo el país por Andreani.\n\n✦ Envío GRATIS en compras +$35.000\n✦ Por debajo de ese monto el costo depende de tu zona\n✦ Entrega estimada: 3-5 días hábiles desde que despachamos\n\n¿Querés saber el costo a tu localidad? Decime dónde estás 💕",
+      "alertar": false
+    },
+    {
+      "nombre": "consulta_pago",
+      "palabras": ["pago", "transferencia", "tarjeta", "cuotas", "mercado pago", "como pago", "cómo pago", "medios de pago"],
+      "respuesta": "💳 Medios de pago disponibles:\n\n✦ Transferencia bancaria → 10% OFF (el precio más conveniente)\n✦ Tarjeta crédito/débito → precio normal\n✦ 3 cuotas sin interés → en compras +$30.000\n✦ Mercado Pago → disponible\n\n¿Cuál te queda mejor? 🎀",
+      "alertar": false
+    },
+    {
+      "nombre": "consulta_colores",
+      "palabras": ["colores", "color", "disponible en", "tienen en", "tenes en", "tenés en", "beige", "rosa", "violeta", "nude", "pastel"],
+      "respuesta": "🌈 Todos nuestros productos están disponibles en 6 colores:\n\n🤍 Blanco\n🩷 Rosa\n💜 Violeta\n🌸 Rosa pastel\n🫶 Beige\n🍑 Nude\n\n¿Cuál es tu favorito? 💕 En el Kit Mini Beauty te mandamos las 3 piezas en el mismo color 🎀",
+      "alertar": false
+    },
+    {
+      "nombre": "consulta_embajadora",
+      "palabras": ["embajadora", "programa", "cupo", "5000", "ser embajadora", "unirme", "embajadoras", "3️⃣"],
+      "respuesta": "🎀 ¡El programa Embajadoras está activo!\n\nTenemos 20 cupos limitados. Por $5.000 (envío incluido en AMBA) te mandamos el producto y a cambio solo necesitamos que subas 1 historia en video mostrándolo y nos etiquetes {negocio.instagram} ✨\n\nPara aplicar necesito:\n→ Tu nombre\n→ Color preferido\n→ Por qué querés ser embajadora 💕\n\n¿Te anotamos? 🌸",
+      "alertar": false
+    },
+    {
+      "nombre": "pedido_status",
+      "palabras": ["mi pedido", "seguimiento", "cuándo llega", "cuando llega", "numero de envio", "tracking", "estado de mi pedido", "donde esta", "dónde está", "4️⃣"],
+      "respuesta": "¡Hola! 🎀 Dame un momento que verifico el estado de tu pedido.\n\n¿Me pasás el número de orden o el mail con el que compraste? 💕",
+      "alertar": true
+    },
+    {
+      "nombre": "reclamo",
+      "palabras": ["reclamo", "queja", "mal estado", "roto", "devolucion", "devolución", "cambio", "factura", "afip", "no llegó", "no llego", "problema"],
+      "respuesta": "¡Hola! 🎀 Entiendo tu consulta, enseguida te paso con alguien del equipo para resolverlo 💕",
+      "alertar": true
+    },
+    {
+      "nombre": "es_bot",
+      "palabras": ["sos un bot", "eres un bot", "sos robot", "eres robot", "habla una persona", "atiende una persona", "persona real"],
+      "respuesta": "¡Hola! 🎀 Soy Valen del equipo de {negocio.nombre}. Cualquier consulta más específica te la responde alguien del equipo en seguida 💕",
+      "alertar": true
+    }
+  ]
+}

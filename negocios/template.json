@@ -1,0 +1,75 @@
+{
+  "negocio": {
+    "nombre": "Nombre del negocio",
+    "instagram": "@usuario",
+    "tienda_url": "https://",
+    "ciudad": "Ciudad"
+  },
+
+  "admin": {
+    "numero": "549XXXXXXXXXX"
+  },
+
+  "horario": {
+    "dias": [1, 2, 3, 4, 5, 6],
+    "hora_inicio": 9,
+    "hora_fin": 21,
+    "timezone_offset": -3
+  },
+
+  "delays": {
+    "min_ms": 4000,
+    "max_ms": 9000
+  },
+
+  "templates_fijos": {
+    "bienvenida": "¡Hola! Bienvenido/a a *{negocio.nombre}* ✨\n\nYa recibimos tu mensaje, te respondemos enseguida.\n\nMientras tanto podés ver nuestros productos en 👉 {negocio.tienda_url}",
+    "fuera_horario": "¡Hola! Gracias por escribirnos. En este momento no estamos disponibles pero te respondemos a la brevedad ✨\n\n{negocio.nombre} — {negocio.ciudad}",
+    "no_entendido": "¡Hola! Enseguida te paso con alguien del equipo para ayudarte mejor 💕"
+  },
+
+  "intenciones": [
+    {
+      "nombre": "saludo",
+      "palabras": ["hola", "buenas", "buen dia", "hi", "hey"],
+      "respuesta": "¡Hola! ¿En qué te puedo ayudar?\n\n1️⃣ Ver productos y precios\n2️⃣ Consultar envíos\n3️⃣ Medios de pago\n4️⃣ Estado de mi pedido",
+      "alertar": false
+    },
+    {
+      "nombre": "consulta_precio",
+      "palabras": ["precio", "cuanto sale", "cuanto cuesta", "cuánto cuesta", "costo", "cuestan", "salen", "ver productos"],
+      "respuesta": "Estos son nuestros productos:\n\n• Producto 1 — $XX.XXX\n• Producto 2 — $XX.XXX\n\n¿Cuál te interesa?",
+      "alertar": false
+    },
+    {
+      "nombre": "consulta_envio",
+      "palabras": ["envio", "envío", "mandan", "despacho", "llega", "dias", "costo envio"],
+      "respuesta": "Enviamos a todo el país.\n\n✦ Envío gratis en compras +$XX.XXX\n✦ Entrega estimada: X-X días hábiles",
+      "alertar": false
+    },
+    {
+      "nombre": "consulta_pago",
+      "palabras": ["pago", "transferencia", "tarjeta", "cuotas", "mercado pago", "como pago", "cómo pago"],
+      "respuesta": "Medios de pago disponibles:\n\n✦ Transferencia bancaria → X% OFF\n✦ Tarjeta crédito/débito\n✦ Mercado Pago",
+      "alertar": false
+    },
+    {
+      "nombre": "pedido_status",
+      "palabras": ["mi pedido", "seguimiento", "tracking", "cuando llega", "cuándo llega", "estado de mi pedido"],
+      "respuesta": "Dame un momento que verifico tu pedido. ¿Me pasás el número de orden o el mail con el que compraste?",
+      "alertar": true
+    },
+    {
+      "nombre": "reclamo",
+      "palabras": ["reclamo", "queja", "roto", "devolucion", "devolución", "cambio", "problema", "no llegó"],
+      "respuesta": "Entiendo tu consulta, enseguida te paso con alguien del equipo para resolverlo 💕",
+      "alertar": true
+    },
+    {
+      "nombre": "es_bot",
+      "palabras": ["sos un bot", "eres un bot", "sos robot", "habla una persona", "persona real"],
+      "respuesta": "Soy parte del equipo de {negocio.nombre}. Cualquier consulta más específica te la responde alguien enseguida 💕",
+      "alertar": true
+    }
+  ]
+}
