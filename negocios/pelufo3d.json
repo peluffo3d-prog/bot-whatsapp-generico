@@ -100,6 +100,48 @@
       "palabras": ["sos un bot", "eres un bot", "sos robot", "eres robot", "habla una persona", "atiende una persona", "persona real"],
       "respuesta": "¡Hola! 🎀 Soy Valen del equipo de {negocio.nombre}. Cualquier consulta más específica te la responde alguien del equipo en seguida 💕",
       "alertar": true
+    },
+
+    {
+      "nombre": "b2b_interes",
+      "palabras": ["mayorista", "por mayor", "cantidad", "lote", "docena", "unidades", "precio x mayor", "precio mayorista", "bar", "restaurante", "kiosco", "empresa", "local", "negocio", "pedido grande", "varios", "cuantos minimo", "mínimo"],
+      "respuesta": "⚽ *Pelufo3D — Mayorista Mundial 2026*\n\nGracias por el interés! Estos son nuestros precios para pedidos:\n\n📦 *Desde 10 unidades:* 20% de descuento sobre precio de lista\n📦 *Desde 50 unidades:* precio especial + logo de tu negocio grabado sin costo extra\n\n*Productos disponibles:*\n🍺 Vaso de Fernet 350ml (escudo Selección) — desde $6.800 c/u\n🏆 Mini Copa del Mundo ~15cm — desde $9.600 c/u\n📦 Cajita Figuritas Álbum — desde $7.200 c/u\n🧉 Mate Mundial personalizado — desde $22.400 c/u\n\n🚚 Entrega zona oeste sin costo | Resto del país por Andreani\n📅 Producción: 48hs — entrega garantida antes del 11 de junio\n\n¿Qué producto te interesa y cuántas unidades necesitás? Te armamos el presupuesto en el momento.",
+      "alertar": true
+    },
+
+    {
+      "nombre": "b2b_vaso",
+      "palabras": ["vaso", "vasos", "fernet", "copa fernet", "vaso fernet", "vaso seleccion", "vaso argentina"],
+      "respuesta": "🍺 *Vaso de Fernet — Selección Argentina*\n\nMaterial: PETG food-safe (apto para bebidas)\nCapacidad: 350ml\nDetalle: escudo Argentina grabado en relieve\nColores: celeste/blanco o negro con dorado\n\n💰 Precio minorista: $8.500 c/u\n💰 Mayorista (10+): $6.800 c/u\n💰 Desde 50 unidades: consultanos precio especial + logo\n\n📅 Producción: 48hs desde la confirmación\n🚚 Entrega zona oeste sin cargo\n\n¿Cuántas unidades necesitás? Te mandamos una foto del producto terminado antes de confirmar el pedido 🏆",
+      "alertar": true
+    },
+
+    {
+      "nombre": "b2b_copa",
+      "palabras": ["copa", "copita", "copa del mundo", "replica copa", "trofeo", "copa 3d"],
+      "respuesta": "🏆 *Mini Copa del Mundo 3D*\n\nAltura: ~15cm | Material: PLA dorado metálico\nBase estable incluida | Detalle de impresión real\n\n💰 Precio minorista: $12.000 c/u\n💰 Mayorista (10+): $9.600 c/u\n💰 Desde 50 unidades: precio especial\n\nIdeal para:\n✦ Decoración de bar/restau\n✦ Premio en eventos y torneos\n✦ Regalo corporativo\n✦ Producto de vitrina / display\n\n📅 Producción: 48hs | Entrega zona oeste sin cargo\n\n¿Cuántas necesitás? 🇦🇷",
+      "alertar": true
+    },
+
+    {
+      "nombre": "b2b_cajita",
+      "palabras": ["cajita", "caja figuritas", "figuritas", "album", "álbum", "panini", "sobres"],
+      "respuesta": "📦 *Cajita Figuritas — Álbum Mundial 2026*\n\nDiseñada específicamente para el álbum Panini 2026\nMaterial: PLA | Peso: ~120g\nColores: celeste, blanco, azul AFA, negro\n\n💰 Precio minorista: $9.000 c/u\n💰 Mayorista (10+): $7.200 c/u\n\nProducto de impulso perfecto para caja — la gente está comprando álbumes ahora.\n\n📅 Producción: 24-48hs | Entrega zona oeste sin cargo\n\n¿Cuántas unidades? 🇦🇷",
+      "alertar": true
+    },
+
+    {
+      "nombre": "b2b_mate",
+      "palabras": ["mate", "mates", "mate personalizado", "mate seleccion", "mate mundial", "mate argentina"],
+      "respuesta": "🧉 *Mate Mundial 2026 — Personalizable*\n\nMaterial: PLA/PETG | Interior food-safe\nCapacidad: ~260ml (tamaño estándar)\nColores: celeste/blanco Selección\nPersonalización: nombre, logo o texto (hasta 15 caracteres)\n\n💰 Precio minorista: $28.000 c/u\n💰 Mayorista (10+): $22.400 c/u\n💰 Desde 50 unidades: logo de empresa grabado sin costo\n\nIdeal para regalos corporativos, eventos, torneos 🏆\n\n📅 Producción: 48-72hs | Entrega zona oeste sin cargo\n\n¿Cuántos necesitás y qué texto querés? 🇦🇷",
+      "alertar": true
+    },
+
+    {
+      "nombre": "b2b_presupuesto",
+      "palabras": ["presupuesto", "cotizacion", "cotización", "cuanto me saldría", "cuanto me sale", "me das precio", "precio para", "factura"],
+      "respuesta": "🇦🇷 *Presupuesto Mayorista Pelufo3D*\n\nPara armarte el precio necesito:\n1️⃣ ¿Qué producto/s?\n2️⃣ ¿Cuántas unidades?\n3️⃣ ¿Necesitás logo o texto personalizado?\n4️⃣ ¿Cuál es tu localidad?\n\nCon eso te mando el número exacto en minutos 💪\n\n*Condiciones generales:*\n• Seña 50% para confirmar producción\n• Saldo contra entrega\n• Transferencia / MercadoPago / Efectivo\n• Producción: 48-72hs\n• Entrega zona oeste sin cargo",
+      "alertar": true
     }
   ]
 }

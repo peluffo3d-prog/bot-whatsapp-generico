@@ -2,3 +2,5 @@ node_modules/
 .wwebjs_auth/
 conversaciones.log
 config.json
+contactos_b2b.json
+campana_b2b.log
